@@ -19,6 +19,7 @@ public class MyFirstShiroDemo {
     static Logger log = LoggerFactory.getLogger(MyFirstShiroDemo.class);
 
     public static void main(String[] args) {
+
         IniSecurityManagerFactory factory = new IniSecurityManagerFactory("classpath:shiro.ini");
 
         SecurityManager manager = factory.getInstance();
