@@ -14,7 +14,7 @@ public class ShiroTest {
 
     @Test
     public void testShrio(){
-        IniSecurityManagerFactory factory = new IniSecurityManagerFactory("classpath:users.ini");
+        IniSecurityManagerFactory factory = new IniSecurityManagerFactory("classpath:userss.ini");
         org.apache.shiro.mgt.
         SecurityManager manager = factory.getInstance();
         SecurityUtils.setSecurityManager(manager);
